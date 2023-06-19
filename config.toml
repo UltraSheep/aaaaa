@@ -1,0 +1,51 @@
+baseURL = 'https://ultrasheep.github.io/blog/'
+languageCode = 'en-us'
+title = 'I want to sleep'
+theme = 'PaperMod'
+buildDrafts = false 
+
+[[menu.main]]
+identifier="tags"
+name="tags"
+url="/tags"
+weight=10
+
+[[menu.main]]
+identifier="categories"
+name="Catergories"
+url="/categories/"
+weight=20
+
+
+[[menu.main]]
+identifier="archives"
+name="Archives"
+url="/archives/"
+weight=30
+
+[params.profileMode]
+
+enabled=true
+title="Sleep"
+subtitle="no sleep haha"
+imageUrl="img/chipowen.jpg"
+imageWidth=120
+imageHeight=120
+imageTitle="culprit"
+
+[[params.profileMode.buttons]]
+name="Blog"
+url="/posts/"
+
+[[params.profileMode.buttons]]
+name="Categories"
+url="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs"
+
+[params]
+ShowBreadCrumbs=true
+ShowReadingTime=true
+ShowShareButtons=true
+ShowPostNavLinks=true
+
+[params.cover]
+linkFullImages=true

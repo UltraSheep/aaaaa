@@ -49,3 +49,7 @@ ShowPostNavLinks=true
 
 [params.cover]
 linkFullImages=true
+
+[submodule] 
+path = "themes/PaperMod"
+ url = "git://github.com/adityatelange/hugo-PaperMod.git"
